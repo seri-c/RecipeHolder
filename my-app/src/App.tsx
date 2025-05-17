@@ -13,8 +13,8 @@ function App() {
       <LandingBox
       
         title="Featured"
-        details=''
-        imageSrc=''
+        details='Explore North African cuisine this May. Highlighting recipes from Tunisia, and Morocco including slow cooked tagines, couscous, and a healthy blend of spices.'
+        imageSrc="./src/assets/tagine.jpg"
         imageCaption=""
 
       >

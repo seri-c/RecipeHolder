@@ -17,16 +17,16 @@ export default function NavBar() {
 
                 <div className="flex-1 flex items-center gap-4">
 
-                    <span className="md:text-2xl">LOGO</span>
+                    <span className="md:text-3xl">LOGO</span>
                    
-                    <a href="#" className="hidden md:block text-md">Home</a>
-                    <a href="#Recipes" className="hidden md:block text-md">Recipes</a>
-                    <a href="#Calendar" className="hidden md:block text-md">Calendar</a>
-                    <a href="#ShoppingList" className="hidden md:block text-md">Shopping List</a>
+                    <a href="#" className="hidden md:block text-lg">Home</a>
+                    <a href="#Recipes" className="hidden md:block text-lg">Recipes</a>
+                    <a href="#Calendar" className="hidden md:block text-lg">Calendar</a>
+                    <a href="#ShoppingList" className="hidden md:block text-lg">Shopping List</a>
 
                 </div>
 
-                <a href="#Login" className="hidden md:block text-md">Login</a>
+                <a href="#Login" className="hidden md:block text-lg">Login</a>
             </div>
 
         </header>
