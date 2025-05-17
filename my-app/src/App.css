@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-tan: #F2E5C3;
+  --color-ochre: #886817;
+}
