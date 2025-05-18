@@ -13,9 +13,9 @@ export default function NavBar() {
     return (
         <header className={`w-screen h-15 sticky px-4  bg-tan top-0`}>
 
-            <div className=" pt-3 pb-1 text-ochre font-light gap-1.25 md:gap-3 flex items-center">
+            <nav className=" pt-3 pb-1 text-ochre font-light gap-1.25 md:gap-3 flex items-center">
 
-                <div className="flex-1 flex items-center gap-4">
+                <ul className="flex-1 flex items-center gap-4">
 
                     <span className="md:text-3xl">LOGO</span>
                    
@@ -24,10 +24,10 @@ export default function NavBar() {
                     <a href="#Calendar" className="hidden md:block text-lg">Calendar</a>
                     <a href="#ShoppingList" className="hidden md:block text-lg">Shopping List</a>
 
-                </div>
+                </ul>
 
                 <a href="#Login" className="hidden md:block text-lg">Login</a>
-            </div>
+            </nav>
 
         </header>
     );
