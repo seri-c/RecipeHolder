@@ -15,18 +15,19 @@ export default function NavBar() {
 
             <nav className=" pt-3 pb-1 text-ochre font-light gap-1.25 md:gap-3 flex items-center">
 
+                <span className="text-lg md:text-3xl">LOGO</span>
                 <ul className="flex-1 flex items-center gap-4">
 
-                    <span className="md:text-3xl">LOGO</span>
-                   
-                    <a href="#" className="hidden md:block text-lg">Home</a>
-                    <a href="#Recipes" className="hidden md:block text-lg">Recipes</a>
-                    <a href="#Calendar" className="hidden md:block text-lg">Calendar</a>
-                    <a href="#ShoppingList" className="hidden md:block text-lg">Shopping List</a>
+
+
+                    <a href="#" className="md:text-lg">Home</a>
+                    <a href="#Recipes" className="md:text-lg">Recipes</a>
+                    <a href="#Calendar" className="md:text-lg">Calendar</a>
+                    <a href="#ShoppingList" className="md:text-lg">Shopping List</a>
 
                 </ul>
 
-                <a href="#Login" className="hidden md:block text-lg">Login</a>
+                <a href="#Login" className="md:text-lg">Login</a>
             </nav>
 
         </header>
