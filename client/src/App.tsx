@@ -43,13 +43,7 @@ function App() {
       >
       </LandingBox>
       <SuggestedCarousel></SuggestedCarousel>
-      <RecipeCard
-        name="Chickpea Tagine"
-        description='Tagine with Chickpeas is a cozy one-pot stew packed with warm Moroccan flavors. Healthy, vegan, gluten-free, and allergen-friendly'
-        difficulty='Medium'
-        >
-        
-      </RecipeCard>
+    
       <button onClick={handleLogin}>Login</button>
       <h2>{profile.username}</h2>
     </div>

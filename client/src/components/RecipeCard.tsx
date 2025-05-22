@@ -28,7 +28,7 @@ const RecipeCard: React.FC<RecipeCardProps> = function ({ name, description, dif
                     <span className={`font-semibold ${difficultyColorMap[difficulty]}`}>{difficulty}</span>
                 </div>
 
-                <p className="text-stone-500 ">{description}</p>
+                <p className="text-stone-500">{description}</p>
 
             </div>
 

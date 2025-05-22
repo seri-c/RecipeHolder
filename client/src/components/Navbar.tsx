@@ -7,12 +7,12 @@ export default function NavBar() {
     const [scroll, setScroll] = useState(false);
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            setScroll(window.scrollY > 50);
+            setScroll(window.scrollY > 20);
         });
     }, []);
 
     return (
-        <header className={`w-screen h-15 sticky px-4  bg-tan top-0`}>
+        <header className={`w-screen h-15 sticky px-4   ${scroll ? "border-b-1 border-black/10 backdrop-blur-sm bg-tan/30 "  : "bg-tan"} top-0`}>
 
             <nav className=" pt-3 pb-1 text-ochre font-light gap-1.25 md:gap-3 flex items-center">
 
