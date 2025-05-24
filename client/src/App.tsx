@@ -44,8 +44,8 @@ function App() {
       </LandingBox>
       <SuggestedCarousel></SuggestedCarousel>
     
-      <button onClick={handleLogin}>Login</button>
-      <h2>{profile.username}</h2>
+      {/* <button onClick={handleLogin}>Login</button>
+      <h2>{profile.username}</h2> */}
     </div>
   )
 }
