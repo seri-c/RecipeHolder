@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 
 
@@ -21,10 +22,10 @@ export default function NavBar() {
 
 
 
-                    <a href="#" className="md:text-lg">Home</a>
-                    <a href="#Recipes" className="md:text-lg">Recipes</a>
-                    <a href="#Calendar" className="md:text-lg">Calendar</a>
-                    <a href="#ShoppingList" className="md:text-lg">Shopping List</a>
+                    <Link to="/" className="md:text-lg">Home</Link>
+                    <Link to="/Recipes" className="md:text-lg">Recipes</Link>
+                    <Link to="/Calendar" className="md:text-lg">Calendar</Link>
+                    <Link to="/ShoppingList" className="md:text-lg">Shopping List</Link>
 
                 </ul>
 
